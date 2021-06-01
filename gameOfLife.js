@@ -136,12 +136,11 @@ function checkMates(){
 
             //checking mates if 1
             if(tilesArray[i].state === 1){
-                if(mates > 3 || mates < 2) {
-                // if(mates !== 2 || mates !== 3 || mates !== 4 || mates !== 7){
+                if(mates > 5 || mates < 2) {
                     updateArray.push(i);
                 }
             } else if(tilesArray[i].state === 0) {
-                if(mates === 1) {
+                if(mates === 2) {
                     updateArray.push(i);
                 }
             }
