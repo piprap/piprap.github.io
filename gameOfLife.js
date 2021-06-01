@@ -99,7 +99,6 @@ function createMap() {
 
 createMap();
 
-
 function checkMates(){
 
     const updateArray = [];
